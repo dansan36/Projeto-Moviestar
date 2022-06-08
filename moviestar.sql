@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `movies` (
   `id` int(11) UNSIGNED NOT NULL,
   `title` varchar(100) DEFAULT NULL,
-  `descriptio` text DEFAULT NULL,
+  `description` text DEFAULT NULL,
   `image` varchar(200) DEFAULT NULL,
   `trailer` varchar(150) DEFAULT NULL,
   `category` varchar(200) DEFAULT NULL,
